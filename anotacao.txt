@@ -1,0 +1,54 @@
+ 1. <head></head> --> Configurações do site.
+ 2. <title></title> --> Titulo do site.
+ 3. <body></body> --> Corpo (conteúdo) do site.
+ 4. <h1></h1> --> Título de seção. São seis níveis. O h1 é o nível mais alta.
+ 5. <p></p> --> Paragrafo.
+ 6. <hr> --> Cria linha horizontal. 
+ 7. <br> --> Quebra de linha.
+ 8. &lt; --> Maior que >
+ 9. &gt; --> Menor que <
+ 10. &lt; Texto &gt; --> Criar <Texto>.
+ 11. &reg; --> Simbolo especial de marca registrada.
+ 12. &copy; --> Simbolo especial de C.
+ 13. unsplash e pexels --> Sites para buscar imagens livres de licença de uso.
+ 14. <img src="" alt=""> --> Adicionar imagens.
+ 15. <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head> --> Adicionar favicon (icone) no head do site.
+16. https://favicon.io ou https://favicon.cc --> Para criar favicon.
+17. <p>lorem</p> --> Criar paragrafo com texto aleatório.
+18. tag <strong> --> negrito.
+19. tag <em> --> italico.
+20. tag <mark> --> marcar texto.
+21. tag <del> --> texto tachado (riscado).
+22. tag <ins> --> texto sublinhado.
+23. tag <sub> --> subescrito X2.
+24. tag <sup> --> superescrito X².
+25. tag <code> --> indicação de código-fonte.
+26. tag <q> --> citação.
+27. tag <blockquote> --> citações mais longas (em bloco) e que tenham um parágrafo
+só para si.
+28. tag <abbr> --> para siglas e abreviações. <abbr title="o que significa a abraviação">ABREVIAÇÃO AQUI</abbr>
+29. tag <bdo> --> indica direção do texto. Deve ser usado co o parâmetro dir para indicar uma das duas direções possíveis: rtl = da direita para a esquerda (right-to-left) e ltr = da esquerda para a direita (left-to-right)
+30. tag <ol> para delimitar a lista ordenada, <li> (list
+item) para identificar cada item da lista e type="" para configurar o marcador (numerico, alfabetico e etc): 
+<ol type="">
+    <li></li>
+</ol>
+31. tag <ul> para delimitar a lista não ordenada, <li> (list
+item) para identificar cada item da lista e type="" para configurar o marcador (disc -padrão. Uma bola preta totalmente pintada, circle -uma bola com uma borda preta e sem preenchimento, square - um pequeno quadrado preto totalmente pintado): 
+<ul type="">
+    <li></li>
+</ul>
+32. Para criar um hyperlink, devemos criar âncoras através da tag <a>. O principal
+atributo dessa tag é o href, que cria uma referência hipertexto. Pode usar o atributo target para controlar onde o site de destino vai abrir --> <a href="" target=""></a>.
+33. Para efetuar downloads, devemos criar âncoras através da tag <a>. O principal
+atributo dessa tag é o href que derevá apontar o link do arquivo e adicionar o
+atributo download com o valor configurado para o nome do
+arquivo a ser baixado e o atributo type para indicar ao
+navegador que tipo de arquivo está sendo baixado:
+<a href="../download/FUNDAMENTOS REDES_CONCEITOS BASICOS.pdf" download="FUNDAMENTOS REDES_CONCEITOS BASICOS.pdf" type="application/pdf">baixe aqui o arquivo em PDF</a>
+    
+  
+
+
